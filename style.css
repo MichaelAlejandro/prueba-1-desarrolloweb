@@ -1,0 +1,33 @@
+.border{
+    width: 400px;
+    height: 600px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: black;
+}
+.container {
+    display: flex;
+    width: 398px;
+    height: 598px;
+    padding: 1px;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item1{
+    align-self: flex-start;
+    font-family: Georgia;
+    font-size: 25px;
+    padding-left: 25px;
+}
+.item2{
+    align-self: center;
+    font-size: 100px;
+}
+.item3{
+    align-self: flex-end;
+    font-family: Georgia;
+    font-size: 25px;
+    padding-right: 25px;
+}
